@@ -9,17 +9,23 @@ body{
     width: 100vw;
     display: flex;
     justify-content: center;
+    
  #product {
     
     width: 100%;
     height: auto;
     
     
+    .part2{
+        display: flex;
+        
+    }
     .card {
         margin: 20px;
 
         &--title {
             text-align: center;
+            
             
             p{
                 margin-bottom: 10px;
@@ -35,18 +41,19 @@ body{
     }
     
     .box{
-        width: 35%;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         margin-right: 20px;
+        flex-wrap: wrap;
+                
+        
         
         &--card{
-            
-            
-
-
+           
 
       
+            
         .card-img {
            text-align: center;
            margin: 5px;
@@ -67,7 +74,9 @@ body{
             text-align: center;
             
             
-            
+            p{
+                margin: 15px;
+            }
             
           }
       }

@@ -14,6 +14,9 @@ body #product {
   width: 100%;
   height: auto;
 }
+body #product .part2 {
+  display: flex;
+}
 body #product .card {
   margin: 20px;
 }
@@ -28,10 +31,11 @@ body #product .card--title h3 {
   margin-bottom: 10px;
 }
 body #product .box {
-  width: 35%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin-right: 20px;
+  flex-wrap: wrap;
 }
 body #product .box--card .card-img {
   text-align: center;
@@ -43,6 +47,9 @@ body #product .box--card .card-img img {
 }
 body #product .box--card .info {
   text-align: center;
+}
+body #product .box--card .info p {
+  margin: 15px;
 }
 body #product .icons {
   display: flex;
